@@ -1,0 +1,35 @@
+{
+  "name": "ygj-customers",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://test.yueguanjia.com/jielin-web",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev-build": "webpack --config webpack.dev.config.js"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.yueguanjia.com:james.yang/ygj-customers.git"
+  },
+  "author": "James.yang",
+  "license": "ISC"
+}
