@@ -9,8 +9,8 @@ import Hello from './component/Hello/hello'
 ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(<Hello />,document.getElementById('root'));
 /*使用es6的箭头函数*/
-// var func = str => {
-//     document.getElementById('root').innerHTML = str;
-// };
-// func('我现在在使用Babel!');
+var func = str => {
+    document.getElementById('root').innerHTML = str;
+};
+func('我现在在使用Babel!');
 registerServiceWorker();
